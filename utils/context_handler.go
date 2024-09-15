@@ -2,11 +2,12 @@ package utils
 
 import (
 	"fmt"
-	"github.com/gofiber/fiber/v2"
-	"gmtcore/infrastructure"
-	"gmtcore/markers"
 	"strconv"
 	"strings"
+
+	"github.com/alasgarovnamig/gmtcore/infrastructure"
+	"github.com/alasgarovnamig/gmtcore/markers"
+	"github.com/gofiber/fiber/v2"
 )
 
 func GetPathVariableIdFromContext(context *fiber.Ctx) uint {

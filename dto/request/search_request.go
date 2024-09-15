@@ -1,6 +1,6 @@
 package request
 
-import "gmtcore/search"
+import "github.com/alasgarovnamig/gmtcore/search"
 
 type SearchRequestDto struct {
 	Criteria []search.Criteria

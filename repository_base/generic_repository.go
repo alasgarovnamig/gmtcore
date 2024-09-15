@@ -2,7 +2,8 @@ package repository_base
 
 import (
 	"fmt"
-	"gmtcore/search"
+
+	"github.com/alasgarovnamig/gmtcore/search"
 	"gorm.io/gorm"
 )
 

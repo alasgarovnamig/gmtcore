@@ -3,13 +3,14 @@ package middleware
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gofiber/fiber/v2"
-	"gmtcore/client"
 
-	dtos_request "gmtcore/dto/request"
-	"gmtcore/dto/response"
-	"gmtcore/infrastructure"
-	"gmtcore/utils"
+	"github.com/alasgarovnamig/gmtcore/client"
+	"github.com/gofiber/fiber/v2"
+
+	dtos_request "github.com/alasgarovnamig/gmtcore/dto/request"
+	"github.com/alasgarovnamig/gmtcore/dto/response"
+	"github.com/alasgarovnamig/gmtcore/infrastructure"
+	"github.com/alasgarovnamig/gmtcore/utils"
 )
 
 func AuthenticationMiddleware(jwtService infrastructure.JwtService) fiber.Handler {
